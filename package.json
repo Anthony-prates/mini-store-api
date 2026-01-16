@@ -1,0 +1,27 @@
+{
+  "name": "mini-store-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/multipart": "^9.3.0",
+    "@prisma/client": "^7.2.0",
+    "awilix": "^12.0.5",
+    "fastify": "^5.7.1",
+    "prisma": "^6.19.2",
+    "sharp": "^0.34.5",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9"
+  }
+}
