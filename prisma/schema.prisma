@@ -10,8 +10,8 @@ generator client {
 model Product {
   id          String   @id @default(uuid())
   name        String
-  description String
+  description String?
   price       Float
-  imageUrl    String
+  imageUrl    String?
   createdAt   DateTime @default(now())
 }
